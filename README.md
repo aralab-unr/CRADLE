@@ -58,24 +58,24 @@ there are 5 Python files to interpret,
 
 ## How to use <br />
 
-# 1. To train MSTA/VDN/CRADLE approach:
+### 1. To train MSTA/VDN/CRADLE approach:
 In the torch environment terminal, from the root, change the directory to /training_phase/MSTA/ or /training_phase/VDN/ or /training_phase/CRADLE/ and type
     python main.py
 After training overall episodes, the policies and plot data files are stored in /models folder under a particular timestamp, ex. "t2023-08-17 16:43:57.654315".
 
-# 2. To train MSTA/VDN/CRADLE approach with various environment field dimensions:
+### 2. To train MSTA/VDN/CRADLE approach with various environment field dimensions:
 In the folders, from the root, change the directory to /training_phase/MSTA/ or /training_phase/VDN/ or /training_phase/CRADLE/ and open main.py.
 Change the x_len and y_len parameters. By default they are x_len = 100 and y_len = 100.
 Save the file and in the torch environment terminal, type
     python main.py
 After training overall episodes, the policies and plot data files are stored in /models folder under a particular timestamp, ex. "t2023-08-17 16:43:57.654315".
 
-# 3. To plot the performance of the training in terms of avg. rewards earned, team coverage, avg. training loss and avg. convergence:
+### 3. To plot the performance of the training in terms of avg. rewards earned, team coverage, avg. training loss and avg. convergence:
 In directory /training_phase/, open graph.ipynb in jupyter notebook or VS Code.
 Under 2.1. File Path section, change the directory path of all 3 approaches to the trained policies (Most recently trained).
 Run all the code inside the file to generate the 3 performance comparison graphs in terms of avg. rewards earned and team coverage followed by avg. training loss and avg. convergence plots.
 
-# 4. To test the CRADLE approach:
+### 4. To test the CRADLE approach:
 The performance of the CRADLE approach can be evaluated in terms of various environmental conditions as mentioned before. 
 To test the trained policies in any environment, copy the policy folders from /training_phase/CRADLE/models folder, change the directory to the environment of your choice like /testing_phase/test_shape/t_shape/ and paste the policy folder in /models folder. The policy folder name would look like "t2023-08-17 16:43:57.654315".
 Then change the current directory back to the chosen environment (e.g. /testing_phase/test_shape/t_shape/).
