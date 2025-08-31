@@ -85,5 +85,5 @@ In the torch environment terminal, type
 After testing each set of UAVs over 10 episodes, the coverage and time taken for the team to reach 80% coverage is saved in /data/uav_# folder in terms of UAVs count. The final test reports avgd_coverage_o_n.csv and coverage_time_o_n.csv contains the averaged values over each set of UAVs (3, 5, 7, 9, 11).
 
 ## Contact
-For questions about the codification or paper, <br />please send an email to gauravsrikar@nevada.unr.edu, mdtamjidh@nevada.unr.edu or aralab2018@gmail.com.
+For questions about the codification or paper, <br />please send an email to gauravsrikar@gmail.com, mdtamjidh@nevada.unr.edu or aralab2018@gmail.com.
 
