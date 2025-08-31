@@ -1,6 +1,6 @@
 # CRADLE: Cooperative Adaptive Decentralized Learning and Execution for UAV network to monitor Wildfire Front
 
-This is the codification used in the ICRA 2024 paper proposing the CRADLE framework, an effective cooperative decentralized approach to monitor the wildfire front using multi-agent deep reinforcement learning. You are free to use all or part of the codes here presented for any purpose, provided that the paper is properly cited and the original authors properly credited. All the files here shared come with no warranties.
+This is the codification used in the CASE 2025 paper proposing the CRADLE framework, an effective cooperative decentralized approach to monitor the wildfire front using multi-agent deep reinforcement learning. You are free to use all or part of the codes here presented for any purpose, provided that the paper is properly cited and the original authors properly credited. All the files here shared come with no warranties.
 This project is built using Python v3.9.13 and PyTorch v1.13.0.dev20220930 over the system equipped with Apple M1 8 cores chip, Apple M1 graphics chipset and Memory 16 GB LPDDR4 configurations. Some .ipynb files are used to generate plots and images, so to access them, you need to install Jupyter Notebook (http://jupyter.readthedocs.io/en/latest/install.html) or VS Code with Jupyter notebook extension.
 
 
